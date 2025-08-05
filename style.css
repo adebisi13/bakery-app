@@ -16,7 +16,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
-  background-color: #e9d3bc;
+  background-color: #F3E0C7;
   font-size: 1rem;
 }
 
@@ -41,10 +41,16 @@ nav .btn button {
   font-size: 1rem;
 }
 
+
 .hero {
     text-align: center;
-    padding: 4rem 1rem;
-    background-color: #e9d3bc;
+    justify-content: center;
+    width: 1265px;
+    height: auto;
+    align-items: center;
+    padding: 4rem 3rem ;
+    background-color: #F3E0C7;
+    /* display: inline-block; */
 }
 
 .hero h1 {
@@ -62,6 +68,11 @@ nav .btn button {
   margin-left: auto;
   margin-right: auto;
 }
+/* .image { */
+  /* width: 50rem; */
+  /* height: 30rem; */
+  /* margin: 1rem 30rem 0rem; */
+/* } */
 
 .menu-btn {
   background-color: #2e8a84;
@@ -70,6 +81,7 @@ nav .btn button {
   padding: 1rem 2rem;
   font-size: 18px;
   border-radius: 25px;
+  margin: 0rem 0rem 5rem;
 }
 /* .img { */
     /* width: 450px; */
@@ -173,9 +185,16 @@ nav .btn button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4rem 3rem;
+  padding: 4rem 3rem 0rem;
   background-color: #fff;
   gap: 4rem;
+}
+.easywith {
+  display: block;
+}
+.easywith img {
+  width: 10rem;
+  height: 10rem;
 }
 
 .easy-text {
@@ -228,10 +247,10 @@ nav .btn button {
 }
 
 .easy-image {
-  flex: 1;
+  /* flex: 1; */
   min-width: 300px;
-  height: 100%;
-  background-color: #eee; 
+  height: 405px;
+  background-color: #fff; 
 }
 
 .local-section {
@@ -248,7 +267,7 @@ nav .btn button {
 .local-image {
   flex: 1;
   min-width: 300px;
-  height: 100%;
+  /* height: 50rem; */
   background-color: #39223d; 
 }
 
